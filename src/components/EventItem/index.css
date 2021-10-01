@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.event-item {
+  list-style-type: none;
+  width: 50%;
+  /* border: 1px solid white; */
+  margin-bottom: 15px;
+}
+.event-button {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  line-height: 0.5em;
+}
+
+/* .event-img {
+  width: 100%;
+} */
+
+.event-image {
+  width: 100%;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  max-width: 460px;
+}
+
+.active {
+  border: 2px solid #2dd4bf;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px rgba(48, 24, 24, 0.205);
+  transform: translateY(-8px);
+}
+.name {
+  color: white;
+  align-self: flex-start;
+}
+.location {
+  align-self: flex-start;
+  color: white;
+}

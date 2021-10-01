@@ -1,0 +1,35 @@
+/* Write your CSS here 
+Hex: #64748b
+Hex: #0967d2
+Hex: #323f4b
+Hex: #f8fafc
+Hex: #475569
+Hex: #ffffff
+Hex: #2dd4bf
+Hex: #3a4b63
+*/
+.app-container {
+  min-height: 100vh;
+  font-family: 'Roboto';
+  display: flex;
+}
+.events-container {
+  background-color: #475569;
+  width: 70%;
+  max-width: 680px;
+  padding: 30px;
+  flex-grow: 1;
+}
+.events-heading {
+  color: white;
+}
+
+.event-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 0;
+  padding-left: 0;
+  /* border: 1px solid red; */
+}
